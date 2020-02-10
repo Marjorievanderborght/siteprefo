@@ -1,0 +1,325 @@
+/*BACKGROUND SITE*/
+body{
+	background-color: #FFFFFF;
+}
+	
+/*MENU DE NAVIGATION*/
+
+/*COULEURS MENU DE NAVIGATION*/
+.blue{
+	color: white;
+	font-weight: bold;
+	font-family: 'Taviraj', serif;
+	font-size: 19px;	
+}
+/*DONNEES MENU DE NAVIGATION*/
+#nav{
+	background-color: #087BB6;
+	margin-bottom: 450px;
+	width: 800px;
+	margin: 0 auto;
+	border-bottom: 5px outset #B3B6B7;
+	border-radius: 12px 12px 11px 12px;
+	border-top: 5px outset #2E4053;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left:0;
+	padding-right:0;
+}
+/*STRUCTURE MENU LI ET LI A*/
+#nav li{
+	display: inline;
+	list-style: none;	
+}
+#nav li a{
+	display:inline-block;
+	margin: 0 36px;
+	text-decoration: none;
+	position: relative;
+	width:120px;
+	text-align:center;
+}
+/*PAGE INDEX*/
+
+/*FLEXBOX*/
+.menu-text{
+	margin-left: 175px;
+	width : 1000px;
+	margin :0 auto;
+	margin-top: 150px;
+	align-items: center;
+    text-decoration: none;
+    margin-bottom: 150px;
+}
+
+.image1{
+	display : flex;
+ 	margin : 0 auto;
+ 	align-items: baseline;
+    justify-content: center;
+    line-height: 20px;
+  }
+
+.image2{
+	display : flex;
+ 	width : 500px;
+ 	height:200px;
+ 	margin : 0 auto;
+ 	align-items: baseline;
+    justify-content: center;
+    line-height: 20px;	
+}
+.image3{
+	margin-top: 400px;
+	margin-right: 50px;
+	display : flex;
+ 	width : 490px;
+ 	height:190px;
+ 	margin : 0 auto; 
+ 	align-items: baseline;
+    justify-content: center;	
+}
+/*STRUCTURE FOOTER*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#main{
+	color: white;
+}
+footer p{
+	background-color: #087BB6;
+	color: white;
+	bottom: 10px;
+	width: 100%;
+	padding-top: 30px;
+	height: 100px;
+}
+
+/*PAGE EXPOSITION*/
+
+/*STRUCTURE H1/TITRE EXPOSITION*/
+.titre1{
+	text-align: center;
+	font-size: 45px;
+	color:#087BB6;
+    font-family: 'Taviraj', serif;
+    padding: 12px;
+	border: 1px solid #bbb;
+	display : flex;
+	width : 500px;
+	margin :0 auto;
+	margin-top: 30px;
+	margin-bottom: 10px;
+  	
+}
+/*STRUCTURE PARAGRAPHES*/
+.paragraphe1{
+	text-align: center;
+	width: 850px;
+	color:#087BB6;
+    font-family: 'Taviraj', serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 auto;
+	display: flex;
+}
+.paragraphe2{
+	text-align: center;
+	width: 850px;
+	color: #087BB6;
+    font-family: 'Taviraj', serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 auto;
+	display: flex;
+}
+.paragraphe3{
+	text-align: center;
+	width: 850px;
+	color: #087BB6;
+    font-family: 'Taviraj', serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 auto;
+	display: flex;
+}
+.paragraphe4{
+	text-align: center;
+	width: 850px;
+	color: #087BB6;
+    font-family: 'Taviraj', serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 auto;
+	display: flex;
+}
+
+img.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*PAGE INTERVIEW*/
+
+/* STRUCTURE LIGNE BR*/   
+hr{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	margin-left: 400px;
+	margin-right: 400px;
+	border-bottom: 3px inset #087BB6;
+}
+
+
+
+/* FLEXBOX PRESENTATION ENTREPRISE*/    
+.div-boxpresentation{
+	padding: 12px;
+	border: 1px solid #bbb;
+	display : flex;
+	width : 1250px;
+	margin :0 auto;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	}
+
+/* STRUCTURE IMAGES FLEXBOX*/    
+
+.image-entreprise{
+height: 80px;
+width: 80px;
+}
+
+
+.image-webdev{
+width: 420px;
+height: auto;
+}
+
+
+/*STRUCTURE H2*/
+h2{
+	color: #087BB6;
+  	font-family: 'Taviraj', serif;
+	width: 450px;
+	font-size: 30px;	
+}
+
+/*STRUCTURE PRESENTATION ENTREPRISE*/
+.parapresentation{
+	font-size: 20px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	margin-right: 60px;
+	color: #087BB6;
+  	font-family: 'Taviraj', serif;
+}
+
+/*STRUCTURE QUESTIONS/REPONSES INTERVIEW*/
+.question{
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: justify;
+	color: #087BB6;
+	font-family: 'Taviraj', serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+.réponse{
+	margin-right: 150px;
+	margin-left: 150px;
+	font-size: 18px;
+	text-align: justify;
+	color:#5e5e76;
+	font-family: 'Taviraj', serif;
+	font-style: italic;
+}
+#JIRA a{
+color: #EA7417;
+text-decoration: none;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+/*PAGE FORMATION*/
+
+h4{
+	text-align: center;
+	color:#087BB6;
+	font-family: 'Taviraj', serif;
+	font-style: italic;	
+	color: orange;
+	border: 1px solid #bbb;
+	width: 350px;
+	margin-top: 35px;
+}
+
+p{
+	text-align: center;
+	color:#087BB6;
+	font-family: 'Taviraj', serif;
+	font-size: 18px;	
+}
+.Introduction{
+	text-align: center;
+	font-size: 45px;
+	color:#087BB6;
+    font-family: 'Taviraj', serif;
+    padding: 12px;
+	border: 1px solid #bbb;
+	display : flex;
+	width : 265px;
+	margin :0 auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+
+}
+
+.Conclusion{
+	text-align: center;
+	font-size: 45px;
+	color:#087BB6;
+    font-family: 'Taviraj', serif;
+    padding: 12px;
+	border: 1px solid #bbb;
+	display : flex;
+	width : 230px;
+	margin :0 auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.remerciements{
+	text-align: center;
+	font-size: 45px;
+	color:#087BB6;
+    font-family: 'Taviraj', serif;
+    padding: 12px;
+	border: 1px solid #bbb;
+	display : flex;
+	width : 330px;
+	margin :0 auto;
+	margin-top: 60px;
+	margin-bottom: 85px;
+
+}
+
+.dedicaces{
+	margin-top: : 200px;
+	margin-bottom: 35px;
+	margin-right: 150px;
+	margin-left: 150px;
+	font-size: 16px;
+	text-align: right;
+	color:#087BB6;
+	font-family: 'Taviraj', serif;
+	font-style: italic;
+}
